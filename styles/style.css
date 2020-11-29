@@ -190,11 +190,11 @@ a:hover {
 .menu-icon:hover .menu-icon__line-right {
 	width: 30px;
 }
-.nav {
+.nav.external {
 	position: fixed;
 	z-index: 98;
 }
-.nav:before, .nav:after {
+.nav.external:before, .nav.external:after {
 	content: "";
 	position: fixed;
 	width: 100vw;
@@ -209,12 +209,12 @@ a:hover {
 	-webkit-transform: translateX(100%) translateY(-100%);
           transform: translateX(100%) translateY(-100%);
 }
-.nav:after {
+.nav.external:after {
 	background: rgba(9,9,12,1);
 	-webkit-transition-delay: 0s;
           transition-delay: 0s;
 }
-.nav:before {
+.nav.external:before {
 	-webkit-transition-delay: .2s;
           transition-delay: .2s;
 }
