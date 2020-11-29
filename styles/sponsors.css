@@ -1,12 +1,13 @@
 
 
 h1{
-    font-size:200px;
+    font-size:15vw;
     color:white;
     width:fit-content;
     margin:0px;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: red;
+    max-width: 100%;
 }
 
 .heading-cont-skewed{
@@ -29,7 +30,7 @@ h1{
 
 .heading-cont{
     position: relative;
-    top:200px;
+    top:40%;
 }
 
 
@@ -155,19 +156,19 @@ div.img-wrapper{
     
     transform: translate(0, 10px);
     /* background-color: #bfbfbf; */
-    background-color:#fff;
+    background-color:#bfbfbf;
     border-radius: 40px 40px 40px 40px;
     padding: 1.5rem;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
     width:33vw;
     min-width: 100%;
 
-    background: linear-gradient(306deg, #ee3a88, #80a2f6);
+    /* background: linear-gradient(306deg, #ee3a88, #80a2f6);
     background-size: 400% 400%;
 
     -webkit-animation: dynamicGradient 11s ease infinite;
     -moz-animation: dynamicGradient 11s ease infinite;
-    animation: dynamicGradient 11s ease infinite;
+    animation: dynamicGradient 11s ease infinite; */
     /* left:-125px; */
   }
 
@@ -188,16 +189,16 @@ div.img-wrapper{
 }
 
   @media only screen and (min-width:1023px){
-    /* div.row>.reveal.col-lg-4:nth-of-type(1) .popover__content{
+    div.row>.reveal.col-lg-4:nth-of-type(1) .popover__content{
         left:-5vw;
     }
-   */
+  
     div.row>.reveal.col-lg-4:nth-of-type(2) .popover__content{
-      left:-2vw;
+      left:-5vw;
   }
   
   div.row>.reveal.col-lg-4:nth-of-type(3) .popover__content{
-      left:-2vw;
+      left:-5vw;
   }
   }
 
