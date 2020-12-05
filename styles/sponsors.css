@@ -241,6 +241,17 @@ div.img-wrapper {
   height: 30px;
 }
 
+@media (max-width: 576px) {
+  .row.social-links img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.social-thumb.col-1 {
+  padding: 0px;
+}
+
 .row.social-links {
   padding-bottom: 0px;
 }

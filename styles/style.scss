@@ -162,23 +162,23 @@ a:hover {
 
 
   
-.blurry .blur-placeholder.blurrer {   
-	height: 140px;
-	top: -10px;
-	left: -10px;
-	right: -10px;
-	position: absolute;
-	overflow: hidden;
+// .blurry .blur-placeholder.blurrer {   
+// 	height: 140px;
+// 	top: -10px;
+// 	left: -10px;
+// 	right: -10px;
+// 	position: absolute;
+// 	overflow: hidden;
 
-	-webkit-filter: blur(6px);
-	-moz-filter: blur(6px);
-	-o-filter: blur(6px);
-	-ms-filter: blur(6px);
-	filter: blur(6px);
-	backdrop-filter: blur(6px);
-	z-index: -500;
+// 	-webkit-filter: blur(6px);
+// 	-moz-filter: blur(6px);
+// 	-o-filter: blur(6px);
+// 	-ms-filter: blur(6px);
+// 	filter: blur(6px);
+// 	backdrop-filter: blur(6px);
+// 	z-index: -500;
 
-}
+// }
 
  
 .cd-header{
@@ -186,9 +186,14 @@ a:hover {
 	width:100%;
 	top:0;
 	left:0;
-	z-index:100;
+	z-index:10001;
 
 	height:140px;
+	transition: all 0.5s linear;
+
+	&.scrollUp{
+		transform: translateY(-140px);
+	}
 	//background-color: rgba(255,255,255,.4) ;
 	//backdrop-filter: blur(6px);
 } 
@@ -277,7 +282,7 @@ a:hover {
 }
 .nav.external {
 	position: fixed;
-	z-index: 98;
+	z-index: 1000;
 }
 .nav.external:before, .nav.external:after {
 	content: "";
