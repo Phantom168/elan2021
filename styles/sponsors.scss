@@ -120,6 +120,10 @@ section.elan-logo-transition{
     background-repeat: no-repeat;
     background-image :url('../img/elan-col.png') , linear-gradient(90deg, rgba(219,217,217,1) 0%, rgba(244,241,241,1) 17%, rgba(254,254,254,1) 51%, rgba(244,241,241,1) 83%, rgba(219,217,217,1) 100%),url('../img/elan-col.png')  ;
     background-size: 37%,100%;
+
+    @include mob{
+        background-size: 90%,100%;
+    }
 }
 
 div.img-wrapper img{

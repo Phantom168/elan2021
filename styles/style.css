@@ -298,6 +298,12 @@ a:hover {
   margin-bottom: 0;
 }
 
+@media (max-width: 576px) {
+  .nav__list-item {
+    font-size: 12vw;
+  }
+}
+
 .nav__list-item a {
   position: relative;
   text-decoration: none;
